@@ -19,7 +19,7 @@ app.get('/', (c) => {
 app.use(
   "/*",
   cors({
-    origin: "https://iot-week02-frontend.vercel.app",
+    origin: "https://week4-font.vercel.app/",
     allowMethods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   })
 );
